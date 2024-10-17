@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.Title {
+    font-size: 2rem; 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+.introduction {
+    max-width: 90%; 
+    margin: 20px auto; 
+    padding: 15px;
+    box-sizing: border-box; 
+}
+
+
+.introduction p {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+
+.information {
+    max-width: 90%; 
+    margin: 20px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.information ul, .personal ul {
+    padding-left: 20px;
+}
+
+.information li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.information span, .personal li {
+    font-weight: normal;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.short h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.information{
+    position: relative;
+    bottom: 110px;
+}
+
+.long h2 p{
+    position: relative;
+    bottom: 70px;
+}
+
+.introduction{
+    position: relative;
+    bottom: 50px;
+}
+
+.short li{
+    font-weight: 400;
+    position: relative;
+    left: 40px;
+}
+
+.in
+
+.long{
+    position: relative;
+    left: 30px;
+}
+
+.long p{
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}
+
+.long h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* For tablets and larger mobile screens */
+@media (max-width: 768px) {
+    .Title {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .introduction, .information {
+        max-width: 95%; /* Increase max-width to fit smaller screens */
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Adjust headings for smaller screens */
+    }
+}
+
+
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .Title {
+        font-size: 1.2rem;
+    }
+
+    .introduction, .information {
+        max-width: 100%;
+        padding: 8px;
+    }
+
+    ul {
+        padding-left: 15px;
+    }
+
+    li {
+        font-size: 0.9rem; /* Smaller font size on mobile */
+    }
+}
